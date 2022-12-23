@@ -1,5 +1,7 @@
 # CSF-peepcc
 
-Review the file Infix-to-Postfix.md.
+Instructions for use: use makefile by typing in the command "make" into cmd. 
 
-Review the file Peep-Compiler.md.
+Then execute your file like this: ./peepcc [peepfile]
+
+For example: ./peepcc ex1.peep will output out.hml
