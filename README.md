@@ -7,3 +7,5 @@
 For example: ./peepcc ex1.peep will output out.hml
 
 More instructions and details about peep language at Peep-Compiler.md
+
+Made by JHMEJIA
