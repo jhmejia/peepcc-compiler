@@ -5,23 +5,12 @@
 
 For example: ./peepcc ex1.peep will output out.hml
 
+For more instructions about what HML is, see HMLSim. 
+To learn more about peep, read on! 
 --- 
 
 
-## Specifics
-1. This project is worth 200 points.
-2. You must use the C programming language.
-3. You must use procedures and functions.
-4. You must document your code.
-5. You must create and use a Makefile to build your project.  It should also have a `clean` target to remove the object files and executable.
-6. Push changes to your GitHub repo often.  Use `git pull` to sync changes between computers.
-7. Testing, testing, testing.  Your compiler will be tested on `babbage.cs.tcu.edu`.
-8. Name of your executable must be `peepcc`.  The name of your source code file is `peepcc.c`
-9. Must include `stack.h` and `stack.c`.
-10. Must include `infix-to-postfix.h` and `infix-to-postfix.c`.
-11. Must include a test program (`test-i2p`) for infix-to postfix conversion and evaluation.
-
-
+##
 ## Introduction
 You have been introduced to the Hatchling Machine Language (HML) and created the Hatching computer simulator to execute programs written in HML. Now, we will build a compiler that converts programs written in a high-level programming language to HML. This ties together the entire programming process. We will write programs in this new high-level language, compile the programs on the compiler we build, and run the programs on the simulator we built.
 
