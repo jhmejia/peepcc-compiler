@@ -13,7 +13,7 @@ To learn more about peep, read on!
 
 ## The Peep Programming Language
 ### Commands
-Peep is a simple, yet powerful, high-level language similar to early versions of the popular language BASIC. We call the language Peep. Every Peep statement consists of a line number and a Peep instruction. Line numbers must appear in ascending order. Each instruction begins with one of the following Peep commands: `rem`, `input`, `let`, `print`, `goto`, `if...goto`, or `end` 
+Peep is a simple, yet powerful, high-level language similar to early versions of the popular language BASIC. Every Peep statement consists of a line number and a Peep instruction. Line numbers must appear in ascending order. Each instruction begins with one of the following Peep commands: `rem`, `input`, `let`, `print`, `goto`, `if...goto`, or `end` 
 
 | **Command** | **Example Statement**     | **Description**                                                                                                                                                    |
 |-------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ All commands except end can be used repeatedly. Peep evaluates only integer expr
 
 
 ### Characters, Variables, and Integers
-Our Peep compiler recognizes only lowercase letters. All characters in a Peep file should be lowercase (uppercase letters result in a syntax error unless they appear in a rem statement in which case they are ignored). A variable name is a single letter. Peep does not allow descriptive variable names, so variables should be explained in remarks to indicate their use in the program. Peep uses only integer variables. Peep does not have variable declarations—merely mentioning a variable name in a program causes the variable to be declared and initialized to zero automatically. The syntax of Peep does not allow string manipulation (reading a string, writing a string, comparing strings, etc.). If a string is encountered in a Peep program (after a command other than rem), the compiler generates a syntax error. Our compiler will assume that Peep programs are entered correctly. 
+Peep files should be in lowercase (uppercase letters result in a syntax error unless they appear in a rem statement in which case they are ignored). A variable name is a single letter. Peep does not allow descriptive variable names, so variables should be explained in remarks to indicate their use in the program. Peep uses only integer variables. Peep does not have variable declarations—merely mentioning a variable name in a program causes the variable to be declared and initialized to zero automatically. The syntax of Peep does not allow string manipulation (reading a string, writing a string, comparing strings, etc.). If a string is encountered in a Peep program (after a command other than rem), the compiler generates a syntax error. Our compiler will assume that Peep programs are entered correctly. 
 
 ### Control Flow and Relational Operaators
 Peep uses the conditional `if...goto` statement and the unconditional `goto` statement to alter the flow of control during program execution. If the condition in the `if...goto` statement is true, control is transferred to a specific line of the program. The following relational and equality operators are valid in an `if...goto` statement: `<`, `>`, `<=`, `>=`, `==` or `!=`. The precedence of these operators is the same as in C.
